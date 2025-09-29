@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 import cors from "cors";
-app.use(cors({ origin: "http://localhost:5173" }));
+app.use(cors({ origin: "https://quiz-platform-devs.vercel.app/" }));
 
 
 conntectDB();
