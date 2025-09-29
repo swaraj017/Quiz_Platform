@@ -14,7 +14,7 @@ const Exam = () => {
   useEffect(() => {
     const fetchQuiz = async () => {
       try {
-        const res = await fetch(`http://localhost:5000/test/${subject}`);
+        const res = await fetch(`https://quiz-platform-4gud.onrender.com/test/${subject}`);
         const data = await res.json();
         setQuiz(data);
         setAnswers(new Array(data.questions.length).fill(null));
