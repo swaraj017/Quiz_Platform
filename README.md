@@ -35,3 +35,11 @@ Layer	Technology
 🌐 Frontend	React, Tailwind CSS, React Router
 ⚙️ Backend	Node.js, Express, MongoDB, Mongoose
 ☁️ Deployment	Vercel (Frontend), Render (Backend)
+
+Deployment
+
+Frontend: [[Vercel Link](https://quiz-platform-devs.vercel.app/)]
+
+Backend: [[Render Link]](https://quiz-platform-4gud.onrender.com)
+Project Structure
+
