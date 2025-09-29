@@ -20,7 +20,7 @@ export default function Login() {
       setMsg(data.message);
       if (data.token) {
         setToken(data.token);
-        navigate("/dashboard");
+        navigate("/");
       }
     } catch {
       setMsg("Something went wrong");
