@@ -11,7 +11,7 @@ export default function Login() {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch("http://localhost:5000/login", {
+      const res = await fetch("https://quiz-platform-4gud.onrender.com/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
